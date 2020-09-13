@@ -25,6 +25,8 @@ You can login with
 - Username: admin
 - Password: password
 
+Docker will automatically create a `wp-content/` folder that you can directly access to place your themes and plugins in
+
 ### Stop
 Done for the day? Stop the docker container with
 ```bash
