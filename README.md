@@ -4,17 +4,34 @@ Automagically pulls the latest docker [wordpress version](https://hub.docker.com
 
 To be used for easy WordPress theme and plugin development
 
+### Setup
+[Install docker](https://www.docker.com/products/docker-desktop)
+
+Clone the repository
 ```bash
-# Start the docker container
-docker-compose up -d
-
-# Stop the docker container
-docker-compose down
-
-# Delete all container data
-docker-compose rm -fs
+git clone https://github.com/InfamousStarFox/docker-wordpress.git
+cd docker-wordpress
 ```
 
-Defaults
+### Run
+Then, with docker running, in terminal:
+```bash
+docker-compose up -d
+```
+Congrats! WordPress is now running at
+http://localhost:8000
+
+You can login with
 - Username: admin
 - Password: password
+
+### Stop
+Done for the day? Stop the docker container with
+```bash
+docker-compose down
+```
+### Remove
+Need a reset? Delete all the WordPress data and return to a fresh installation with 
+```bash
+docker-compose rm -fs
+```
