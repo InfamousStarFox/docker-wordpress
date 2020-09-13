@@ -14,7 +14,7 @@ cd docker-wordpress
 ```
 
 ### Run
-Then, with docker running, in terminal:
+With docker running, in terminal:
 ```bash
 docker-compose up -d
 ```
@@ -31,7 +31,7 @@ Done for the day? Stop the docker container with
 docker-compose down
 ```
 ### Remove
-Need a reset? Delete all the WordPress data and return to a fresh installation with 
+Need to reset? Delete all the WordPress data and return to a fresh installation with 
 ```bash
 docker-compose rm -fs
 ```
