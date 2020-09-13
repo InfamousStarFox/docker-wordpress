@@ -11,7 +11,7 @@ docker-compose up -d
 # Stop the docker container
 docker-compose down
 
-# Delete all container data container
+# Delete all container data
 docker-compose rm -fs
 ```
 
