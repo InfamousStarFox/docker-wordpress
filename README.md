@@ -34,4 +34,5 @@ docker-compose down
 Need to reset? Delete all the WordPress data and return to a fresh installation with 
 ```bash
 docker-compose rm -fs
+docker volume prune
 ```
