@@ -10,8 +10,11 @@ docker-compose up -d
 
 # Stop the docker container
 docker-compose down
+
+# Delete all container data container
+docker-compose rm -fs
 ```
 
-Username: admin
-
-Password: password
+Defaults
+- Username: admin
+- Password: password
